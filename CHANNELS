@@ -20,7 +20,7 @@
 <item>
 <title>[COLOR lime]MIXTURE OF SPORTS/LIVE TV11[/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/dimsports.eu.links.cfg&amp;mode=1</jsonrpc>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/dimsports.eu.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://www.fixithere.net/wp-content/uploads/2015/01/sky-catch-up-tv-guide-part2.png</thumbnail>
 <fanart>http://atxsportsphotos.com/assets_d/54976/web_media/3ds_grass_texture241_173.jpg</fanart>
 </item>
