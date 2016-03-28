@@ -3,31 +3,27 @@
     <name>[COLOR yellow]TRANSFER DEADLINE DAY[/COLOR]</name>
 <thumbnail>http://s2.stliq.com/c/l/0/0f/18075473_soccer-players-on-twitter-seguiamo-le-notizie-su-calciatori-squadre-di-calcio-2.png</thumbnail>
 <link>http://ignoreme</link>
-<externallink>http://www.4legends.co.uk/MoneySports/NEWS.XML</externallink>
+<externallink></externallink>
 <fanart>http://i3.mirror.co.uk/incoming/article2244778.ece/ALTERNATES/s615/TDDS310113CL_6005.jpg</fanart>
 
 
 
 
 
-<channels>
 
-<channel>
     <name>[COLOR lawngreen]MATCHDAY[/COLOR] TWITTER STREAMS ( MAINLY [COLOR lawngreen]HD[/COLOR] ) ( [COLOR red]ALSO PPVS[/COLOR] )</name>
 <thumbnail>http://s2.stliq.com/c/l/0/0f/18075473_soccer-players-on-twitter-seguiamo-le-notizie-su-calciatori-squadre-di-calcio-2.png</thumbnail>
 <link>http://ignoreme</link>
-<externallink>http://www.4legends.co.uk/MoneySports/ppvlive.XML</externallink>
+<externallink></externallink>
 <fanart>http://fcbusiness.co.uk/blog/folderofcontent/uploads/2013/04/twitterfield.jpg</fanart>
 </channel>
 </channels> 
 
-<channels>
- 
-<channel>
+
     <name>SPORTS CHANNELS ( MAINLY [COLOR yellow]HQ[/COLOR] )</name>
 <thumbnail>http://s30.postimg.org/b68t4wyb5/live_sports_hq.jpg</thumbnail>
 <link>http://ignoreme</link>
-<externallink>http://is.gd/HQLIST</externallink>
+<externallink></externallink>
 <fanart>https://c1.staticflickr.com/3/2222/2966151868_5d4734781f_b.jpg</fanart>
 <info></info>
 </channel>
@@ -44,16 +40,16 @@
 </channels>
 
 
-<channels>
- 
-<channel>
+
     <name>VIP</name>
 <thumbnail>http://static6.depositphotos.com/1023799/629/v/950/depositphotos_6298823-Vip-golden-icon-with-diamondsvector.jpg</thumbnail>
 <link>http://ignoreme</link>
-<externallink>http://www.4legends.co.uk/MoneySports/VIP.XML</externallink>
+<externallink></externallink>
 <fanart>https://c1.staticflickr.com/3/2222/2966151868_5d4734781f_b.jpg</fanart>
 </channel>
 </channels> 
+
+
 
 <channels>
  
@@ -61,7 +57,7 @@
     <name>SPORTS LINKS</name>
 <thumbnail>http://s30.postimg.org/merl6g1ip/live_sports.jpg</thumbnail>
 <link>http://ignoreme</link>
-<externallink>http://is.gd/livegames</externallink>
+<externallink></externallink>
 <fanart>https://c1.staticflickr.com/3/2222/2966151868_5d4734781f_b.jpg</fanart>
 <info></info>
 </channel>
@@ -70,9 +66,7 @@
 
 
 
-<channels>
- 
-<channel>
+
 <name>TEDDY BADBOY SPORTS</name>
 <thumbnail>http://www.mma-icons.com/images/kuvat/bad_boy_brazilrashguard_white04.jpg</thumbnail>
 <link>http://ignoreme</link>
@@ -108,9 +102,7 @@
 </channels>
 
 
-<channels>
- 
-<channel>
+
 <name>MOTO GP REPLAYS</name>
 <thumbnail>http://s2.postimg.org/l54hxsqyh/Moto_GP_Moto2_2014_Round_01_Qatar_Losail_Qualif.png</thumbnail>
 <link>http://ignoreme</link>
@@ -130,9 +122,7 @@
 </channel>
 </channels>
 
-<channels>
- 
-<channel>
+
     <name>CLUB TV</name>
 <thumbnail>http://s30.postimg.org/u2ehor06p/CLUBS.jpg</thumbnail>
 <link>http://ignoreme</link>
@@ -144,13 +134,7 @@
 
  
 
-<plugin>
-<name>Sport365 (ZemTV.com addon required)</name>
-<link>plugin://plugin.video.ZemTV-shani/?mode=56&name=Sport365.live&url=sss</link>
-<thumbnail></thumbnail>
-</plugin>
-</channel>
-</channels>
+
 
 
     <name>SPORTS NEWS</name>
