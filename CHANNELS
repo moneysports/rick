@@ -18,7 +18,7 @@
 </item>
 
 <item>
-<title>[COLOR orange]EXTRA LIVE SPORTS[/COLOR]</title>
+<title>[COLOR red]EXTRA LIVE SPORTS[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
@@ -26,7 +26,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]MIXTURE OF SPORTS[/COLOR]</title>
+<title>[COLOR red]MIXTURE OF SPORTS[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/dimsports.eu.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://www.fixithere.net/wp-content/uploads/2015/01/sky-catch-up-tv-guide-part2.png</thumbnail>
