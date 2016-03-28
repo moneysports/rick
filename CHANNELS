@@ -12,7 +12,7 @@
 <item>
 <title>[COLOR red]MORE LIVE SPORTS1[/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livesportstreams-wrapper.cfg&amp;mode=1</jsonrpc>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livesportstreams.tv.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
 <fanart>http://atxsportsphotos.com/assets_d/54976/web_media/3ds_grass_texture241_173.jpg</fanart>
 </item>
