@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+
+<item>
+<title>[COLOR red]LIVE SPORTS[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/streamsports.me.cfg&amp;mode=1</jsonrpc>
+<thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
+<fanart>http://atxsportsphotos.com/assets_d/54976/web_media/3ds_grass_texture241_173.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]EXTRA LIVE SPORTS[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+<thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
+<fanart>http://atxsportsphotos.com/assets_d/54976/web_media/3ds_grass_texture241_173.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]MIXTURE OF SPORTS/LIVE TV[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=customs/ilive.to.cfg&amp;mode=1</jsonrpc>
+<thumbnail>http://www.fixithere.net/wp-content/uploads/2015/01/sky-catch-up-tv-guide-part2.png</thumbnail>
+<fanart>http://atxsportsphotos.com/assets_d/54976/web_media/3ds_grass_texture241_173.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR red]1[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent1.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]2[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent2.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]3[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent3.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]4[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent4.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]5[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent5.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]6[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent6.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]7[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent7.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]8[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent8.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]9[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent9.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]10[/COLOR]</title>
+<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tech&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-enctext</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tech/stream.php?id=$doregex[id]</page>
+<referer>http://p2pcast.tech/</referer>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tech/getTok.php</page>
+<referer>http://p2pcast.tech/</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://wiziwig.xyz/frameevent10.html</page>
+<referer>http://wiziwig.xyz/</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow]REMEMBER GUYS SOME CHANNELS GO LIVE JUST BEFORE GAME[/COLOR]</title>
+<sportsdevil>http://stepfb.net/live/chanel/48/</sportsdevil>
+<referer>http://stepfb.net/</referer>
+</item>
+
+<item>
+<title>[COLOR yellow]MIGHT NEED TO GIVE SOME LINKS A COUPLE OF CLICKS[/COLOR]</title>
+<sportsdevil>http://stepfb.net/live/chanel/48/</sportsdevil>
+<referer>http://stepfb.net/</referer>
+</item>
+
+
+<title>[COLOR yellow]LATEST SPORTSDEVIL ADDON NEEDED[/COLOR]</title>
+<sportsdevil>http://stepfb.net/live/chanel/48/</sportsdevil>
+<referer>http://stepfb.net/</referer>
+</item>
