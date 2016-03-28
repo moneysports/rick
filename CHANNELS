@@ -10,7 +10,7 @@
 </item>
 
 <item>
-<title>[COLOR red]MORE LIVE SPORTS[/COLOR]</title>
+<title>[COLOR red]MORE LIVE SPORTS1[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livesportstreams-wrapper.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
