@@ -36,8 +36,8 @@
 <item>
 <title>[COLOR red]MIXTURE[/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=56&amp;name=IpBox sports&amp;url=sss</jsonrpc>
-<thumbnail>http://www.androidaba.com/wp-content/uploads/2016/02/zemtv-aba.png</thumbnail>
+<jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=55&amp;name=IpBox sports (Beta1 requires F4mTester)&amp;url=sss</jsonrpc>
+<thumbnail></thumbnail>
 </item>
 
 
