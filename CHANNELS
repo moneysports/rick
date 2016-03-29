@@ -59,26 +59,26 @@
 
 
 
-<item>
+
 <title>LIVE</title>
 <link>http://199.189.110.20:1935/as99/chSport1hd/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-<item>
+
 <title>LIVE</title>
 <sportsdeviL>http://zonasports.be/link.php?id=6</sportsdevil>
 <referer>http://zonasports.be/link.php?id=6</referer>
 <thumbnail></thumbnail>
 </item>
 
-<item>
+
 <title>LIVE</title>
 <link>http://149.255.37.10/live/AeDNJ6QrFqjbm5MMgja0/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-<item>
+
 <title>LIVE</title>
 <link>http://stream.ssh101.com:1935/live/zunoxhd1a/playlist.m3u8</link>
 <thumbnail></thumbnail>
@@ -128,11 +128,12 @@ https://hls.goodgame.ru/hls/65996.m3u8
 
 
 
-
+<item>
 <title>LIVE UFC</title>
 <link>http://ooyalahd2-f.akamaihd.net/i/eslax17_delivery@349499/master.m3u8</link>
 </item>
 
+<item>
 <title>LIVE UFC</title>
 <link>http://ooyalahd2-f.akamaihd.net/i/eslax17_delivery@349499/index_1728_av-b.m3u8</link>
 </item>
