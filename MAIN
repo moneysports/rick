@@ -102,12 +102,14 @@
 </channels>
 
 
-
+<channels>
+ 
+<channel>
 <name>MOTO GP REPLAYS</name>
-<thumbnail>http://s2.postimg.org/l54hxsqyh/Moto_GP_Moto2_2014_Round_01_Qatar_Losail_Qualif.png</thumbnail>
+<thumbnail>http://i65.tinypic.com/2emle2p.jpg</thumbnail>
 <link>http://ignoreme</link>
-</externallink>
-<fanart>http://photos.motogp.com/2015/11/02/motogp__gp_0539.big.jpg</fanart>
+<externallink>http://</externallink>
+<fanart>http://i65.tinypic.com/bbtld.jpg</fanart>
 </channel>
 </channels>
  
