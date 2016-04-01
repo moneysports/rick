@@ -12,7 +12,7 @@
 </item>
 
 <item>
-<title>[COLOR red]MORE LIVE SPORTS[/COLOR][COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
+<title>[COLOR red]MORE LIVE SPORTS[/COLOR] [COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/streamsports.me.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
@@ -20,7 +20,7 @@
 </item>
 
 <item>
-<title>[COLOR red]EXTRA LIVE SPORTS[/COLOR][COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
+<title>[COLOR red]EXTRA LIVE SPORTS[/COLOR] [COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
@@ -28,7 +28,7 @@
 </item>
 
 <item>
-<title>[COLOR red]MIXTURE OF SPORTS[/COLOR][COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
+<title>[COLOR red]MIXTURE OF SPORTS[/COLOR] [COLOR yellow]LATEST SPORTSDEVIL NEEDED[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/dimsports.eu.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://images.dailytech.com/nimage/Livesport_TV_Wide.jpg</thumbnail>
