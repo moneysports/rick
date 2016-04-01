@@ -114,9 +114,7 @@
  
  
  
-<channels>
-  
-<channel>
+
     <name>[COLOR red]ROCK[/COLOR][COLOR blue] MUSIC[/COLOR]</name>
 <thumbnail>http://moonstache.com/30-508-thickbox/rock-n-roll-attitude.png</thumbnail>
 <link>http://ignoreme</link>
@@ -212,9 +210,7 @@
  
  
  
-<channels>
-  
-<channel>
+
     <name>[COLOR red]LIVE[/COLOR][COLOR blue] CONCERTS[/COLOR]</name>
 <thumbnail>http://billypreach.com/wp-content/uploads/2014/02/Live-Music-Banner.png</thumbnail>
 <link>http://ignoreme</link>
@@ -228,9 +224,7 @@
  
  
  
-<channels>
-  
-<channel>
+
     <name>[COLOR red]MUSIC[/COLOR][COLOR blue] TV[/COLOR]</name>
 <thumbnail>http://assets.audionetwork.com/templates/images/Image_1808_55.png</thumbnail>
 <link>http://ignoreme</link>
@@ -260,9 +254,7 @@
  
  
  
-<channels>
-  
-<channel>
+
     <name>[COLOR red]LIVE 24/7[/COLOR][COLOR blue] MUSIC STREAMS[/COLOR]</name>
 <thumbnail>http://www.portarlingtongrandhotel.com.au/wp-content/uploads/live-music.jpg</thumbnail>
 <link>http://ignoreme</link>
@@ -277,9 +269,7 @@
  
  
  
-<channels>
-  
-<channel>
+
     <name>[COLOR red]LIVE 24/7[/COLOR][COLOR blue] LOCAL RADIO STREAMS[/COLOR]</name>
 <thumbnail>http://b64clan-site.ucoz.com/Slike/storage/liveradio.png</thumbnail>
 <link>http://ignoreme</link>
