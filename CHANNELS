@@ -1725,31 +1725,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 
-<title>TEST - TSN 1 - SportsDevil</title>
-<sportsdevil>http://hd-sp.tv/watch/sky-sport-1-live-stream</sportsdevil>
-<referer>http://www.ultracast.me/</referer>
-</item>
 
-<title>test Kaaba and Masjid Al-Haram</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>plugin://plugin.video.youtube/play/?video_id=watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>plugin://plugin.video.youtube/channel/[CID]/UCcJ9QiKdRUAxv46K7OgmzQg</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>[COLOR red]TV 1[/COLOR]</title>
@@ -1765,6 +1741,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1785,6 +1762,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1802,6 +1780,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1819,6 +1798,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 <item>
@@ -1835,6 +1815,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 <item>
@@ -1851,6 +1832,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1868,6 +1850,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1885,6 +1868,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 <item>
@@ -1901,10 +1885,11 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 <item>
-<title>[COLOR red]TV 10[/COLOR]</title>
+<title>[COLOR red]TV 10[/COLOR]  Aston Villa - Chelsea</title>
 <link>$doregex[getEncLink]</link>
 <regex>
 <name>getDecLink</name>
@@ -1917,6 +1902,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -1934,6 +1920,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 <item>
@@ -1950,6 +1937,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 http://miplayer.net/embedplayer.php?width=640&height=480&id=tvt13&autoplay=true&strech=exactfit
 
@@ -1968,7 +1956,9 @@ http://miplayer.net/embedplayer.php?width=640&height=480&id=tvt13&autoplay=true&
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
+
 
 
 http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt13&amp;autoplay=true&amp;strech=exactfit
@@ -1986,6 +1976,7 @@ http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt13&amp;au
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
@@ -2003,6 +1994,7 @@ http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt13&amp;au
 <expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
 <page></page>
 </regex>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
 
 
