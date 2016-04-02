@@ -1751,5 +1751,258 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>[COLOR red]TV 1[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv1qer&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv1&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR red]TV 2[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv2hts&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv2&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 3[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv3efs&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv3&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 4[/COLOR] </title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv4dge&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv4&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]TV 5[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv5hg&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv5&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]TV 6[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv6gh&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv6&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 7[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv7q&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv7&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 8[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv8&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv8&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]TV 9[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv9&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv9&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]TV 10[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt10&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv10&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 11[/COLOR]  </title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt11&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv11&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR red]TV 12[/COLOR]  </title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt12&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv12&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+http://miplayer.net/embedplayer.php?width=640&height=480&id=tvt13&autoplay=true&strech=exactfit
+
+
+<item>
+<title>[COLOR red]TV 13[/COLOR] </title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt13&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv13&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt13&amp;autoplay=true&amp;strech=exactfit
+<item>
+<title>[COLOR red]TV 14[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt14&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv14&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR red]TV 15[/COLOR]</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt15&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv15&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+</item>
 
 
