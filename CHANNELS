@@ -1899,7 +1899,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <regex>
 <name>getDecLink</name>
 <expres>curl = "(.*?)"</expres>
-<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvt10&amp;autoplay=true&amp;strech=exactfit</page>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=tvtt10&amp;autoplay=true&amp;strech=exactfit</page>
 <referer>http://www.ibrodtv.net/embed.php?chan=tv10&width=640&height=480</referer>
 </regex>
 <regex>
