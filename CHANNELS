@@ -1739,7 +1739,8 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 1 </title>
+<title>LIVE 1 Barcelona vs Atletico Madrid</title>
+</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1818,7 +1819,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 3</title>
+<title>LIVE 3 Barcelona vs Atletico Madrid</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1937,7 +1938,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 6 </title>
+<title>LIVE 6 Barcelona vs Atletico Madrid</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2056,7 +2057,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 9 </title>
+<title>LIVE 9 Barcelona vs Atletico Madrid</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2095,7 +2096,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 <item>
-<title>LIVE 10 </title>
+<title>LIVE 10 Barcelona vs Atletico Madrid</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2371,7 +2372,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 <item>
-<title>LIVE 17 </title>
+<title>LIVE 17 Barcelona vs Atletico Madrid</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
