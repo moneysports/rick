@@ -140,3 +140,58 @@
 <fanart>http://cdn.theatlantic.com/static/mt/assets/international/Bahrain%20f1%20race%20banner.jpg</fanart>
 <item>
 
+<item>
+<title>BAHRAIN FP3</title>
+<link>$doregex[url]|Cookie=$get_cookies$</link>
+<regex>
+<name>url</name>
+<expres>720p.*"(http.*?)"</expres>      
+<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/video/_myvideo/2132.json</page>
+<referer>http://my.mail.ru/</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail>http://cdn.wonderfulengineering.com/wp-content/uploads/2015/07/bahrain-flag-23.jpg</thumbnail>
+<fanart>http://cdn.theatlantic.com/static/mt/assets/international/Bahrain%20f1%20race%20banner.jpg</fanart>
+<item>
+
+<item>
+<title>BAHRAIN QUALIFYING</title>
+<link>$doregex[url]|Cookie=$get_cookies$</link>
+<regex>
+<name>url</name>
+<expres>720p.*"(http.*?)"</expres>      
+<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/video/_myvideo/2131.json</page>
+<referer>http://my.mail.ru/</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail>http://cdn.wonderfulengineering.com/wp-content/uploads/2015/07/bahrain-flag-23.jpg</thumbnail>
+<fanart>http://cdn.theatlantic.com/static/mt/assets/international/Bahrain%20f1%20race%20banner.jpg</fanart>
+<item>
+
+<item>
+<title>BAHRAIN RACE PT 2</title>
+<link>$doregex[url]|Cookie=$get_cookies$</link>
+<regex>
+<name>url</name>
+<expres>1080p.*"(http.*?)"</expres>      
+<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/video/_myvideo/2150.json</page>
+<referer>http://my.mail.ru/</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail>http://cdn.wonderfulengineering.com/wp-content/uploads/2015/07/bahrain-flag-23.jpg</thumbnail>
+<fanart>http://cdn.theatlantic.com/static/mt/assets/international/Bahrain%20f1%20race%20banner.jpg</fanart>
+<item>
+
+<item>
+<title>BAHRAIN RACE PT 1</title>
+<link>$doregex[url]|Cookie=$get_cookies$</link>
+<regex>
+<name>url</name>
+<expres>1080p.*"(http.*?)"</expres>      
+<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/video/_myvideo/2151.json</page>
+<referer>http://my.mail.ru/</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail>http://cdn.wonderfulengineering.com/wp-content/uploads/2015/07/bahrain-flag-23.jpg</thumbnail>
+<fanart>http://cdn.theatlantic.com/static/mt/assets/international/Bahrain%20f1%20race%20banner.jpg</fanart>
+<item>
