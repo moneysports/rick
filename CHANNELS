@@ -74,14 +74,24 @@
 <referer></referer>
 <thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
-
+<item>
+<title>[COLOR white]================================================================================================[/COLOR]</title>
+<sportsdevil>llllllllllllllll123</sportsdevil>
+<referer></referer>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
+</item>
 <item>
 <title>[COLOR yellow]HQ LINKS[/COLOR]</title>
 <sportsdevil>llllllllllllllll</sportsdevil>
 <referer></referer>
 <thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
-
+<item>
+<title>[COLOR white]================================================================================================[/COLOR]</title>
+<sportsdevil>llllllllllllllll123</sportsdevil>
+<referer></referer>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
+</item>
 
 <item>
 <title>LIVE</title>
@@ -1740,11 +1750,21 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 <referer></referer>
 <thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
 </item>
-
-
+<item>
+<title>[COLOR yellow]SD LINKS[/COLOR]</title>
+<sportsdevil>llllllllllllllll123</sportsdevil>
+<referer></referer>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
+</item>
 
 <item>
-<title>LIVE 1 Barcelona vs Atletico Madrid</title>
+<title>[COLOR white]================================================================================================[/COLOR]</title>
+<sportsdevil>llllllllllllllll123</sportsdevil>
+<referer></referer>
+<thumbnail>http://i65.tinypic.com/bi04uf.jpg</thumbnail>
+</item>
+<item>
+<title>LIVE 1 </title>
 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
@@ -1784,7 +1804,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 <item>
-<title>LIVE 2 Bayern Munchen vs Benfica Lisbon</title>
+<title>LIVE 2 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1824,7 +1844,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 3 Barcelona vs Atletico Madrid</title>
+<title>LIVE 3 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1864,7 +1884,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 4 Bayern Munchen vs Benfica Lisbon</title>
+<title>LIVE 4 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1943,7 +1963,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 6 Barcelona vs Atletico Madrid</title>
+<title>LIVE 6 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -1982,7 +2002,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 <item>
-<title>LIVE 7 Bayern Munchen vs Benfica Lisbon</title>
+<title>LIVE 7 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2022,7 +2042,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 8 Bayern Munchen vs Benfica Lisbon</title>
+<title>LIVE 8 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2062,7 +2082,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 
 
 <item>
-<title>LIVE 9 Barcelona vs Atletico Madrid</title>
+<title>LIVE 9 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
@@ -2101,7 +2121,7 @@ httpsvideo01-lax.streamup.com%2Fapp%2Fstartek2s-channel%2Fplaylist.m3u8&h=LAQHQu
 </item>
 
 <item>
-<title>LIVE 10 Barcelona vs Atletico Madrid</title>
+<title>LIVE 10 </title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
 <regex>
 <name>URLEncodedLink</name>
