@@ -169,7 +169,7 @@
 <item>
 
 <item>
-<title>BAHRAIN RACE PT 2</title>
+<title>BAHRAIN RACE PT 1</title>
 <link>$doregex[url]|Cookie=$get_cookies$</link>
 <regex>
 <name>url</name>
@@ -183,7 +183,7 @@
 <item>
 
 <item>
-<title>BAHRAIN RACE PT 1</title>
+<title>BAHRAIN RACE PT 2</title>
 <link>$doregex[url]|Cookie=$get_cookies$</link>
 <regex>
 <name>url</name>
